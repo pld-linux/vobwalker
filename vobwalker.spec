@@ -3,7 +3,7 @@
 %bcond_without	lfs	# disable largefile support (for files larger than 2GB)
 #
 Summary:	Tool to copy VOB file chapters to file
-Summary(pl.UTF-8):   Narzędzie do kopiowania części plików VOB do pliku
+Summary(pl.UTF-8):	Narzędzie do kopiowania części plików VOB do pliku
 Name:		vobwalker
 Version:	0.1
 Release:	1
