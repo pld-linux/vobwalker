@@ -3,7 +3,7 @@
 %bcond_without	lfs	# disable largefile support (for files larger than 2GB)
 #
 Summary:	Tool to copy VOB file chapters to file
-Summary(pl):	Narzêdzie do kopiowania czê¶ci plików VOB do pliku
+Summary(pl.UTF-8):   NarzÄ™dzie do kopiowania czÄ™Å›ci plikÃ³w VOB do pliku
 Name:		vobwalker
 Version:	0.1
 Release:	1
@@ -25,15 +25,15 @@ The practical effect of pointing vobwalker at a .VOB file is that you
 wind up with a set of smaller .VOB files, each containing a chapter
 from the original file. 
 
-%description -l pl
-Vobwalker wêdruje poprzez plik .VOB zawieraj±cy film DVD, wyci±gaj±c
-listy VOBU do zbioru plików czê¶ci. Ka¿dy plik zaczyna siê od VOBU,
-który nie ma poprzednika (tzn. nie ma wskazania na poprzedzaj±cy VOBU)
-i zawiera listê VOBU znalezionych poprzez pod±¿anie za wska¼nikami
-nastêpników w li¶cie. Koñcowy VOBU w ka¿dym pliku nie ma nastêpnika.
+%description -l pl.UTF-8
+Vobwalker wÄ™druje poprzez plik .VOB zawierajÄ…cy film DVD, wyciÄ…gajÄ…c
+listy VOBU do zbioru plikÃ³w czÄ™Å›ci. KaÅ¼dy plik zaczyna siÄ™ od VOBU,
+ktÃ³ry nie ma poprzednika (tzn. nie ma wskazania na poprzedzajÄ…cy VOBU)
+i zawiera listÄ™ VOBU znalezionych poprzez podÄ…Å¼anie za wskaÅºnikami
+nastÄ™pnikÃ³w w liÅ›cie. KoÅ„cowy VOBU w kaÅ¼dym pliku nie ma nastÄ™pnika.
 
 Praktycznym efektem wskazania vobwalkera na plik .VOB jest otrzymanie
-zbioru mniejszych plików .VOB, z których ka¿dy zawiera czê¶æ
+zbioru mniejszych plikÃ³w .VOB, z ktÃ³rych kaÅ¼dy zawiera czÄ™Å›Ä‡
 oryginalnego pliku.
 
 %prep
